@@ -1,0 +1,33 @@
+{
+  "student": {
+    "name": "Obeney Londoño",
+    "document": "1017170826"
+  },
+  "model": "ResNet34 (ImageNet pretrained)",
+  "dataset": "akash2sharma/tiny-imagenet",
+  "num_classes": 200,
+  "train_samples": 100000,
+  "hyperparameters": {
+    "img_size": 224,
+    "batch_size": 64,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "loss": "CrossEntropyLoss(label_smoothing=0.1)",
+    "scheduler": "ReduceLROnPlateau",
+    "dropout": 0.3,
+    "epochs": 10
+  },
+  "metrics": {
+    "best_validation_accuracy": 0.7208,
+    "final_train_accuracy": 0.8119,
+    "final_train_loss": 1.5499,
+    "final_validation_loss": 1.9090,
+    "best_epoch": 10
+  },
+  "submission": {
+    "file": "submission.csv",
+    "columns": ["File", "Encoded_Label"],
+    "note": "Generar con inferencia sobre test_loader sin labels"
+  }
+}

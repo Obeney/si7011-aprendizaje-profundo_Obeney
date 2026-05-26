@@ -10,7 +10,7 @@ Repositorio de talleres del curso **SI7011 Deep Learning**.
 | Taller | Tema | Estado |
 |--------|------|--------|
 | [Taller1_MLP](Taller1_MLP/) | MLP — Intel Image Classification | Completado |
-| Taller2_TinyImageNet | CNN — clasificación de imágenes | Pendiente |
+| [Taller2_TinyImageNet](Taller2_TinyImageNet/) | CNN — Tiny ImageNet (ResNet34) | Completado |
 | Taller3_CNN | RNN / series de tiempo | Pendiente |
 | Taller4_AdvancedCNN | Transformers / NLP | Pendiente |
 
