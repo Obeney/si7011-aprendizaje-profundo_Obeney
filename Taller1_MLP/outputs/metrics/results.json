@@ -1,0 +1,31 @@
+{
+  "student": {
+    "name": "Obeney Londoño",
+    "document": "1017170826"
+  },
+  "model": "SimpleMLP",
+  "dataset": "puneet6060/intel-image-classification",
+  "classes": ["buildings", "forest", "glacier", "mountain", "sea", "street"],
+  "hyperparameters": {
+    "img_size": 150,
+    "grayscale": true,
+    "architecture": [22500, 512, 128, 6],
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss": "CrossEntropyLoss",
+    "batch_size": 32,
+    "epochs": 10
+  },
+  "metrics": {
+    "train_loss_final": 0.6089,
+    "validation_accuracy": 0.54,
+    "test_accuracy": 0.53,
+    "train_samples": 14034,
+    "val_subset_size": 100,
+    "test_subset_size": 100
+  },
+  "competition_submission": {
+    "file": "predictions.csv",
+    "num_predictions": 200
+  }
+}
