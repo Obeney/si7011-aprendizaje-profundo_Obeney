@@ -1,0 +1,31 @@
+{
+  "student": {
+    "name": "Obeney Londoño",
+    "document": "1017170826"
+  },
+  "task": "Bike Sharing Demand Forecasting",
+  "dataset": "OpenML 44063",
+  "model": "BikeDemandRNN (2-layer GRU)",
+  "hyperparameters": {
+    "sequence_length": 24,
+    "delay_hours": 1,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "batch_size": 256,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "max_epochs": 150,
+    "early_stopping_patience": 20
+  },
+  "metrics_mae_bikes_per_hour": {
+    "naive_test": 80.78,
+    "hist_gradient_boosting_test": 33.94,
+    "gru_rnn_test": 34.45
+  },
+  "splits": {
+    "train": 12047,
+    "val": 2581,
+    "test": 2582
+  }
+}
