@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Credenciales locales
+.kaggle/
+kaggle.json
+
+# Datos voluminosos (usar Kaggle datasets)
+data/
+
+# Checkpoints pesados
+*.pt
+*.pth
+*.ckpt
+
+# Artefactos temporales de desarrollo
+kaggle_push/
+**/_analyze.py
+**/_extract.py
+**/_setup_taller1.py
