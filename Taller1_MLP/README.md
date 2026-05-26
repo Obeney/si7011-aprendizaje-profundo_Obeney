@@ -56,7 +56,7 @@ Rutas en Kaggle:
 ## Análisis breve
 
 - El modelo **reduce la loss** en entrenamiento pero la accuracy en val/test se estabiliza ~53–54% → generalización limitada y posible sobreajuste.
-- Aplanar píxeles ignora estructura espacial; las **CNN** (Taller 2) suelen funcionar mejor en imágenes.
+- Aplanar píxeles **ignora la estructura espacial** de la imagen, lo que limita la capacidad del MLP para capturar patrones locales.
 - El muestreo **estratificado** garantiza representación balanceada en val/test (100 muestras c/u).
 
 ## Kaggle
