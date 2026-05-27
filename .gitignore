@@ -229,6 +229,11 @@ data/
 *.pth
 *.ckpt
 
+# Artefactos de entrenamiento NLP
+runs/
+checkpoints/
+**/outputs/runs/
+
 # Artefactos temporales de desarrollo
 kaggle_push/
 **/_analyze.py

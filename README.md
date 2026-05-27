@@ -12,7 +12,7 @@ Repositorio de talleres del curso **SI7011 Deep Learning**.
 | [Taller1_MLP](Taller1_MLP/) | MLP — Intel Image Classification | Completado |
 | [Taller2_TinyImageNet](Taller2_TinyImageNet/) | CNN — Tiny ImageNet (ResNet34) | Completado |
 | [Taller3_CNN](Taller3_CNN/) | RNN/GRU — Bike Sharing (series de tiempo) | Completado |
-| Taller4_AdvancedCNN | Transformers / NLP | Pendiente |
+| [Taller4_AdvancedCNN](Taller4_AdvancedCNN/) | Transformers — TweetEval emotion + deployment | Completado |
 
 ## Entorno
 
